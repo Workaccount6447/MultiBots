@@ -3,6 +3,8 @@ import subprocess
 import json
 import time
 
+new_env[key] = os.getenv(value)
+
 with open("config.json", "r") as jsonfile:
     bots = json.load(jsonfile)
 
